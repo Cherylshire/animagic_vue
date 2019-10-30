@@ -48,7 +48,7 @@
     text-align: center;
     }
 
-  .img {
+  .image {
     max-width: 400px; 
     max-height: 250px;
   }
