@@ -25,9 +25,9 @@
 
     <div>
       <div class="row"> <!-- Go beck to backend and retrive the images. -->
-        <div class="images" v-for="imageOrder in imageOrders">
+        <div class="col-md-4" v-for="imageOrder in imageOrders">
           {{ imageOrder.image.label }}
-          <img v-bind:src="imageOrder.image.url" >
+          <img class="images" v-bind:src="imageOrder.image.url" >
         </div>
       </div>
     </div>
@@ -48,9 +48,13 @@
     text-align: center;
     }
 
-  .image {
-    max-width: 400px; 
-    max-height: 250px;
+  .row {
+    max-width: 800px; 
+    max-height: 350px;
+  }
+  .images {
+    max-width: 250px; 
+    max-height: 150px;
   }
 
   .rearrange-box {
@@ -79,13 +83,14 @@ export default {
       placements: [
         {label: "A", image_id: 1, placement: ""},
         {label: "B", image_id: 2, placement: ""},
-        {label: "C", image_id: 3, placement: ""},
-        {label: "D", image_id: 4, placement: ""},
-        {label: "E", image_id: 5, placement: ""},
-        {label: "F", image_id: 6, placement: ""},
-        {label: "G", image_id: 7, placement: ""},
-        {label: "H", image_id: 8, placement: ""},
-        {label: "I", image_id: 9, placement: ""}
+        {label: "C", image_id: 4, placement: ""},
+        {label: "D", image_id: 5, placement: ""},
+        {label: "E", image_id: 6, placement: ""},
+        {label: "F", image_id: 7, placement: ""},
+        {label: "G", image_id: 8, placement: ""},
+        {label: "H", image_id: 9, placement: ""},
+        {label: "I", image_id: 10, placement: ""},
+        {label: "J", image_id: 11, placement: ""}
       ],
       imageOrders: []
     };
@@ -104,6 +109,13 @@ export default {
         .then(response => {
           console.log(response.data);
           },
+
+      axios
+      .get("/api/image_orders") 
+      .then(response => {
+        this.imageOrders = response.data;
+      })
+
     // show: function() {
     //   .patch("/api/image_orders")
     //   .then(response => {
