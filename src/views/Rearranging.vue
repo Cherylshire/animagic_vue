@@ -83,14 +83,14 @@ export default {
       placements: [
         {label: "A", image_id: 1, placement: ""},
         {label: "B", image_id: 2, placement: ""},
-        {label: "C", image_id: 4, placement: ""},
-        {label: "D", image_id: 5, placement: ""},
-        {label: "E", image_id: 6, placement: ""},
-        {label: "F", image_id: 7, placement: ""},
-        {label: "G", image_id: 8, placement: ""},
-        {label: "H", image_id: 9, placement: ""},
-        {label: "I", image_id: 10, placement: ""},
-        {label: "J", image_id: 11, placement: ""}
+        {label: "C", image_id: 3, placement: ""},
+        {label: "D", image_id: 4, placement: ""},
+        {label: "E", image_id: 5, placement: ""},
+        {label: "F", image_id: 6, placement: ""},
+        {label: "G", image_id: 7, placement: ""},
+        {label: "H", image_id: 8, placement: ""},
+        {label: "I", image_id: 9, placement: ""},
+        {label: "J", image_id: 10, placement: ""}
       ],
       imageOrders: []
     };
@@ -107,22 +107,11 @@ export default {
       axios
         .post("/api/image_orders", {placements: this.placements})
         .then(response => {
-          console.log(response.data);
-          },
-
-      axios
-      .get("/api/image_orders") 
-      .then(response => {
-        this.imageOrders = response.data;
-      })
-
-    // show: function() {
-    //   .patch("/api/image_orders")
-    //   .then(response => {
-    //     this.current_user.placement = response.data;
-    //   })});
-          // redefine imageOrders for this current user with the response
-          )}
-      }}
+          console.log(response.data)
+          this.imageOrders = response.data;
+        });
+    }
+  }
+};
 
 </script>
