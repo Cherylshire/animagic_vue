@@ -10,292 +10,42 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col color-bar bg-warning d-none d-md-block"></div>
+            <div class="col color-bar bg-warning d-none d-md-block"></div>
+            <div class="col color-bar bg-success d-none d-md-block"></div>
             <div class="col color-bar bg-success d-none d-md-block"></div>
             <div class="col color-bar bg-danger d-none d-md-block"></div>
+            <div class="col color-bar bg-danger d-none d-md-block"></div>
+            <div class="col color-bar bg-info d-none d-md-block"></div>
             <div class="col color-bar bg-info d-none d-md-block"></div>
             <div class="col color-bar bg-purple d-none d-md-block"></div>
+            <div class="col color-bar bg-purple d-none d-md-block"></div>
+            <div class="col color-bar bg-pink d-none d-md-block"></div>
             <div class="col color-bar bg-pink d-none d-md-block"></div>
             <div class="col color-bar bg-warning"></div>
+            <div class="col color-bar bg-warning"></div>
+            <div class="col color-bar bg-success"></div>
             <div class="col color-bar bg-success"></div>
             <div class="col color-bar bg-danger"></div>
+            <div class="col color-bar bg-danger"></div>
+            <div class="col color-bar bg-info"></div>
+            <div class="col color-bar bg-info"></div>
             <div class="col color-bar bg-info"></div>
             <div class="col color-bar bg-purple"></div>
+            <div class="col color-bar bg-purple"></div>
+            <div class="col color-bar bg-pink"></div>
             <div class="col color-bar bg-pink"></div>
           </div>
         </div>
       </div>
 
               <!-- Top Bar-->
-          <!-- d-none d-md-block -->
-          <div class=" bg-stone  top-bar">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-7 d-none d-lg-block">
-                  <ul class="list-inline d-flex justify-content-xl-start align-items-center h-100 mb-0">
-                    <li>
-                      <span class="bg-warning icon-header mr-xl-2">
-                        <i class="fa fa-envelope" aria-hidden="true"></i>
-                      </span>
-                      <a href="mailto:info@yourdomain.com" class="mr-lg-4 mr-xl-6 text-white opacity-80">info@yourdomain.com</a>
-                    </li>
-                    <li>
-                      <span class="bg-success icon-header mr-xl-2">
-                        <i class="fa fa-phone" aria-hidden="true"></i>
-                      </span>
-                      <a href="tel:+1 234 567 8900" class="mr-lg-4 mr-xl-6 text-white opacity-80"> +1 234 567 8900 </a>
-                    </li>
-                    <li class="text-white">
-                      <span class="bg-pink icon-header">
-                        <i class="fa fa-clock-o" aria-hidden="true"></i>
-                      </span>
-                      <span class="opacity-80">Open: 9am - 6pm</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="col-lg-5">
-                  <ul class="list-inline d-flex mb-0 justify-content-xl-end justify-content-center align-items-center mr-xl-2">
-                    <li>
-                      <span class="bg-info icon-header mr-lg-0 mr-xl-1">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                      </span>
-                    </li>
-                    <li class="mr-3 mr-md-4 mr-lg-3 mr-xl-5 dropdown dropdown-sm">
-                      <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false"> Language </button>
-                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#">English</a>
-                        <a class="dropdown-item" href="#">Spanish</a>
-                        <a class="dropdown-item" href="#">Hindi</a>
-                      </div>
-                    </li>
-
-                    <li class="text-white mr-md-3 mr-lg-2 mr-xl-5">
-                      <span class="bg-purple icon-header mr-1 mr-md-2 mr-lg-1 mr-xl-2">
-                        <i class="fa fa-unlock-alt text-white font-size-13" aria-hidden="true"></i>
-                      </span>
-                      <a class="text-white font-weight-medium opacity-80" href="javascript:void(0)" data-toggle="modal"
-                        data-target="#modal-login">
-                        Login
-                      </a>
-                      <span class="text-white opacity-80">or</span>
-                      <a class="text-white font-weight-medium opacity-80" href="javascript:void(0)" data-toggle="modal" data-target="#modal-createAccount">Create
-                        an account</a>
-                    </li>
-
-                    <li class="cart-dropdown d-none d-md-block">
-                      <div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-                        <a href="javascript:void(0)">
-                          <span class="rounded-sm bg-pink icon-small icon-badge d-none">
-                            <i class="fa fa-close text-white" aria-hidden="true"></i>
-                          </span>
-                          <span class="rounded-sm bg-pink icon-small icon-badge">
-                            <i class="fa fa-shopping-basket text-white" aria-hidden="true"></i>
-                            <span class="badge bg-warning">3</span>
-                          </span>
-                        </a>
-                      </div>
-                      <div class="dropdown-menu dropdown-menu-right">
-                        <ul class="bg-white list-unstyled">
-                          <li class="d-flex align-items-center">
-                            <i class="fa fa-shopping-basket font-size-20 mr-3" aria-hidden="true"></i>
-                            <h3 class="text-capitalize font-weight-bold mb-0">3 items in your cart</h3>
-                          </li>
-                          <hr>
-                          <li>
-                            <a href="product-single.html">
-                              <div class="media">
-                                <div class="image">
-                                  <img class="bg-light rounded-sm px-5 py-3 mr-4" src="assets/img/products/product-sm.png" alt="cart-Image">
-                                </div>
-                                <div class="media-body">
-                                  <div class="d-flex justify-content-between">
-                                    <h4 class="text-dark">Barbie Racing Car</h4>
-                                    <span class="cancel">
-                                      <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                                    </span>
-                                  </div>
-                                  <div class="price">
-                                    <span class="text-warning font-weight-medium">$50</span>
-                                  </div>
-                                  <span class="text-muted font-weight-medium text-muted">Qnt: 1</span>
-                                </div>
-                              </div>
-                            </a>
-                            <hr>
-                          </li>
-                          <li>
-                            <a href="product-single.html">
-                              <div class="media">
-                                <div class="image">
-                                  <img class="bg-light rounded-sm px-5 py-3 mr-4" src="assets/img/products/product-sm.png" alt="cart-Image">
-                                </div>
-                                <div class="media-body">
-                                  <div class="d-flex justify-content-between">
-                                    <h4 class="text-dark">Barbie Racing Car</h4>
-                                    <span class="cancel">
-                                      <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                                    </span>
-                                  </div>
-                                  <div class="price">
-                                    <span class="text-warning font-weight-medium">$50</span>
-                                  </div>
-                                  <span class="text-muted font-weight-medium">Qnt: 1</span>
-                                </div>
-                              </div>
-                            </a>
-                            <hr>
-                          </li>
-                          <li>
-                            <a href="product-single.html">
-                              <div class="media">
-                                <div class="image">
-                                  <img class="bg-light rounded-sm px-5 py-3 mr-4" src="assets/img/products/product-sm.png" alt="cart-Image">
-                                </div>
-                                <div class="media-body">
-                                  <div class="d-flex justify-content-between">
-                                    <h4 class="text-dark font-weight-bold">Barbie Racing Car</h4>
-                                    <span class="cancel">
-                                      <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                                    </span>
-                                  </div>
-                                  <div class="price">
-                                    <span class="text-warning font-weight-medium">$50</span>
-                                  </div>
-                                  <span class="text-muted font-weight-medium">Qnt: 1</span>
-                                </div>
-                              </div>
-                            </a>
-                            <hr>
-                          </li>
-                          <li>
-                            <div class="d-flex justify-content-between mb-3">
-                              <h3 class="cart-total font-weight-bold">Subtotal</h3>
-                              <h3 class="cart-price font-weight-bold">$150</h3>
-                            </div>
-                            <div class="cart-button d-flex justify-content-between">
-                              <button type="button" class="btn btn-danger text-uppercase px-4 shadow-sm mr-3" onclick="location.href='product-checkout-step-1.html';">Checkout</button>
-                              <button type="button" class="btn btn-danger text-uppercase px-4 shadow-sm" onclick="location.href='product-cart.html';">View
-                                Cart</button>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
 
       <!-- Navbar -->
       <nav class="navbar navbar-expand-md navbar-scrollUp navbar-sticky navbar-white">
         <div class="container">
           <a class="navbar-brand" href="index.html">
-            <img class="d-inline-block" src="Evolution-of-computer-animation-1.jpg" alt="Kidz School">
+            <img class="d-inline-block" src="/assets/img/banner/slider-1/img-2.jpg" alt="Kidz School">
           </a>
-
-          <!-- cart-dropdown -->
-          <div class="dropdown cart-dropdown ml-auto mr-5 d-md-none">
-            <div data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <a href="javascript:void(0)">
-                <span class="rounded-sm bg-pink icon-small icon-badge d-none">
-                  <i class="fa fa-close text-white" aria-hidden="true"></i>
-                </span>
-                <span class="rounded-sm bg-pink icon-small icon-badge ">
-                  <i class="fa fa-shopping-basket text-white" aria-hidden="true"></i>
-                  <span class="badge bg-warning">3</span>
-                </span>
-              </a>
-            </div>
-            <div class="dropdown-menu dropdown-menu-right">
-              <ul class="bg-white list-unstyled">
-                <li class="d-flex align-items-center">
-                  <i class="fa fa-shopping-basket font-size-20 mr-3" aria-hidden="true"></i>
-                  <h3 class="text-capitalize font-weight-bold mb-0">3 items in your cart</h3>
-                </li>
-                <hr>
-                <li>
-                  <a href="product-single.html">
-                    <div class="media">
-                      <div class="image">
-                        <img class="bg-light rounded-sm px-5 py-3 mr-4" src="assets/img/products/product-sm.png" alt="cart-Image">
-                      </div>
-                      <div class="media-body">
-                        <div class="d-flex justify-content-between">
-                          <h4 class="text-dark">Barbie Racing Car</h4>
-                          <span class="cancel">
-                            <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                          </span>
-                        </div>
-                        <div class="price">
-                          <span class="text-warning font-weight-medium">$50</span>
-                        </div>
-                        <span class="text-muted font-weight-medium text-muted">Qnt: 1</span>
-                      </div>
-                    </div>
-                  </a>
-                  <hr>
-                </li>
-                <li>
-                  <a href="product-single.html">
-                    <div class="media">
-                      <div class="image">
-                        <img class="bg-light rounded-sm px-5 py-3 mr-4" src="assets/img/products/product-sm.png" alt="cart-Image">
-                      </div>
-                      <div class="media-body">
-                        <div class="d-flex justify-content-between">
-                          <h4 class="text-dark">Barbie Racing Car</h4>
-                          <span class="cancel">
-                            <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                          </span>
-                        </div>
-                        <div class="price">
-                          <span class="text-warning font-weight-medium">$50</span>
-                        </div>
-                        <span class="text-muted font-weight-medium">Qnt: 1</span>
-                      </div>
-                    </div>
-                  </a>
-                  <hr>
-                </li>
-                <li>
-                  <a href="product-single.html">
-                    <div class="media">
-                      <div class="image">
-                        <img class="bg-light rounded-sm px-5 py-3 mr-4t" src="assets/img/products/product-sm.png" alt="cart-Image">
-                      </div>
-                      <div class="media-body">
-                        <div class="d-flex justify-content-between">
-                          <h4 class="text-dark font-weight-bold">Barbie Racing Car</h4>
-                          <span class="cancel">
-                            <i class="fa fa-close text-muted" aria-hidden="true"></i>
-                          </span>
-                        </div>
-                        <div class="price">
-                          <span class="text-warning font-weight-medium">$50</span>
-                        </div>
-                        <span class="text-muted font-weight-medium">Qnt: 1</span>
-                      </div>
-                    </div>
-                  </a>
-                  <hr>
-                </li>
-                <li>
-                  <div class="d-flex justify-content-between mb-3">
-                    <h3 class="cart-total font-weight-bold">Subtotal</h3>
-                    <h3 class="cart-price font-weight-bold">$150</h3>
-                  </div>
-                  <div class="cart-button d-flex justify-content-between">
-                    <button type="button" class="btn btn-danger text-uppercase px-4 shadow-sm mr-3" onclick="location.href='product-checkout-step-1.html';">Checkout</button>
-                    <button type="button" class="btn btn-danger text-uppercase px-4 shadow-sm" onclick="location.href='product-cart.html';">View
-                      Cart</button>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
 
           <button class="navbar-toggler py-2" type="button" data-toggle="collapse" data-target="#navbarContent"
             aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -310,20 +60,7 @@
                   <i class="fa fa-home nav-icon" aria-hidden="true"></i>
                   <span>Home</span>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                  <li>
-                    <a class="dropdown-item  active " href="index.html">Kidz School</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="index-v2.html">Kidz Store</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="index-v3.html">Kidz Daycare</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="index-v4.html">Kidz Fashion</a>
-                  </li>
-                </ul>
+
               </li>
 
               <li class="nav-item dropdown bg-danger">
@@ -334,71 +71,8 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="about-us.html">About Us</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="javascript:void(0)">
-                      Team <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                    </a>
-                    <ul class="sub-menu">
-                      <li><a class="" href="teachers.html">Teachers</a></li>
-                      <li><a class="" href="teachers-details.html">Teachers
-                          Details</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="testimonial.html">Testimonial</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item
-                     ||
-                     ||
-                    
-                    "
-                      href="javascript:void(0)">Events<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <ul class="sub-menu">
-                      <li><a class=" " href="events.html">All Events</a></li>
-                      <li>
-                        <a class="" href="event-single-left-sidebar.html">Events
-                          Left Sidebar</a>
-                      </li>
-                      <li>
-                        <a class="" href="event-single-right-sidebar.html">Events
-                          Right Sidebar</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="photo-gallery.html">Photo
-                      Gallery</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="pricing-table.html">Pricing
-                      Table</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="services.html">Services</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="services-details.html">Services
-                      Details</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="search-result.html">Search
-                      Result</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="contact-us.html">Contact Us</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="faq.html">FAQ</a>
-                  </li>
-                  <li>
                     <a class="dropdown-item " href="sign-up-or-login.html">Sign
-                      Up / Login</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="404.html">Error 404</a>
+                      Up</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
@@ -578,7 +252,7 @@
               <li class="nav-item dropdown bg-pink">
                 <a class="nav-link dropdown-toggle " href="component-default.html">
                   <i class="fa fa-home nav-icon" aria-hidden="true"></i>
-                  <span>components</span>
+                  <span>History</span>
                 </a>
               </li>
             </ul>
@@ -602,16 +276,28 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col color-bar bg-warning"></div>
+            <div class="col color-bar bg-warning"></div>
+            <div class="col color-bar bg-danger"></div>
             <div class="col color-bar bg-danger"></div>
             <div class="col color-bar bg-success"></div>
+            <div class="col color-bar bg-success"></div>
+            <div class="col color-bar bg-info"></div>
             <div class="col color-bar bg-info"></div>
             <div class="col color-bar bg-purple"></div>
+            <div class="col color-bar bg-purple"></div>
+            <div class="col color-bar bg-pink"></div>
             <div class="col color-bar bg-pink"></div>
             <div class="col color-bar bg-warning d-none d-md-block"></div>
+            <div class="col color-bar bg-warning d-none d-md-block"></div>
+            <div class="col color-bar bg-danger d-none d-md-block"></div>
             <div class="col color-bar bg-danger d-none d-md-block"></div>
             <div class="col color-bar bg-success d-none d-md-block"></div>
+            <div class="col color-bar bg-success d-none d-md-block"></div>
+            <div class="col color-bar bg-info d-none d-md-block"></div>
             <div class="col color-bar bg-info d-none d-md-block"></div>
             <div class="col color-bar bg-purple d-none d-md-block"></div>
+            <div class="col color-bar bg-purple d-none d-md-block"></div>
+            <div class="col color-bar bg-pink d-none d-md-block"></div>
             <div class="col color-bar bg-pink d-none d-md-block"></div>
           </div>
         </div>
@@ -620,82 +306,43 @@
       <div class="pt-8 pb-7  bg-repeat" style="background-image: url(assets/img/background/footer-bg-img-1.png);">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6 col-lg-3 col-xs-12">
-              <a class="mb-6 d-block" href="index.html">
-                <img class="img-fluid d-inline-block w-50 lazyestload" data-src="assets/img/logo-footer.png" src="assets/img/logo-footer.png">
-              </a>
-              <p class="mb-6">Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit
-                amet.</p>
-              <p class="mb-6">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                aliqua.</p>
-            </div>
+
 
             <div class="col-sm-6 col-lg-3 col-xs-12">
               <h4 class="section-title-sm font-weight-bold text-white mb-6">Useful Links</h4>
               <ul class="list-unstyled">
                 <li class="mb-4">
                   <a href="index.html">
-                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Kidz School
+                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>What's motion graphic?
                   </a>
                 </li>
                 <li class="mb-4">
                   <a href="about-us.html">
-                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>About Kidz School
+                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>About programming
                   </a>
                 </li>
                 <li class="mb-4">
                   <a href="index-v2.html">
-                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Kidz Store
+                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Designing
                   </a>
                 </li>
                 <li class="mb-4">
                   <a href="index-v3.html">
-                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Kidz Daycare
+                    <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Shapes & colors
                   </a>
                 </li>
                 <li class="mb-3">
                   <a href="photo-gallery.html">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>
-                    Photo Gallery
+                    Gallery
                   </a>
                 </li>
               </ul>
             </div>
 
             <div class="col-sm-6 col-lg-3 col-xs-12">
-              <h4 class="section-title-sm font-weight-bold text-white mb-6">Recent Post</h4>
+              <h4 class="section-title-sm font-weight-bold text-white mb-6">More about Cheryl</h4>
               <ul class="list-unstyled list-item-border-bottom">
-                <li class="mb-4 pb-4">
-                  <div class="media">
-                    <a class="mr-2" href="blog-single-left-sidebar.html">
-                      <img class="rounded-lg w-100 border-warning border-2 d-block" data-src="assets/img/blog/blog-sm-img5.jpg"
-                        src="assets/img/blog/blog-sm-img5.jpg" alt="blog-sm-img5.jpg">
-                    </a>
-                    <div class="media-body">
-                      <h5 class="line-hight-16 mb-1">
-                        <a class="font-base font-size-14" href="blog-single-left-sidebar.html">A Clean Website Gives More Experience To The
-                          Visitors</a>
-                      </h5>
-                      <time class="text-white">July 7 - 2018</time>
-                    </div>
-                  </div>
-                </li>
-
-                <li class="mb-4 pb-4">
-                  <div class="media">
-                    <a class="mr-2" href="blog-single-left-sidebar.html">
-                      <img class="rounded-lg w-100 border-success border-2 d-block" data-src="assets/img/blog/blog-sm-img-12.jpg"
-                        src="assets/img/blog/blog-sm-img-12.jpg" alt="blog-sm-img-12.jpg">
-                    </a>
-                    <div class="media-body">
-                      <h5 class="line-hight-16 mb-1">
-                        <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
-                          in voluptate.</a>
-                      </h5>
-                      <time class="text-white">Jun 7 - 2018</time>
-                    </div>
-                  </div>
-                </li>
 
                 <li class="mb-4 pb-4">
                   <div class="media">
@@ -705,10 +352,9 @@
                     </a>
                     <div class="media-body">
                       <h5 class="line-hight-16 mb-1">
-                        <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Duis aute irure dolor in reprehenderit
-                          in voluptate.</a>
+                        <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Check out Cheryl's website: www.cheryljune.net</a>
                       </h5>
-                      <time class="text-white">Jun 7 - 2018</time>
+                      <time class="text-white">Nov 14 - 2019</time>
                     </div>
                   </div>
                 </li>

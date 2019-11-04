@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <div class="instruction">
+      <br>
       <h1>{{ message }}</h1>
       <h2>Animagic is an unique app,<br>
       it will show you some of the most basic animation,<br> 

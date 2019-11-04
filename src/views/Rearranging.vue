@@ -2,6 +2,7 @@
   <section class="rearranging pt-9 pb-6 py-md-7">
     <div class="container"> <!--contain everthing in this page -->
       <div class="headline"> <!-- the div class of game title and instructions. -->
+        <br>
         <h1>The Rearranging Game</h1>
         <h2>Here are 10 sequence images in random positions.
         Your jobs is to re-order them into their rightful positions,
@@ -19,6 +20,7 @@
           </div>
         </div>
         <input class="btn btn-lg" type="submit" value="go"> <!-- submit button -->
+        <button class="btn btn-lg" href="">animate</button>
       </form>
 
       <div>
@@ -26,6 +28,7 @@
           <div class="col-md-4" v-for="imageOrder in imageOrders">
             {{ imageOrder.image.label }}
             <img class="images" v-bind:src="imageOrder.image.url" >
+
           </div>
         </div>
       </div>
@@ -48,43 +51,23 @@
     }
 
   .row {
-    max-width: 800px; 
-    /*max-height: 350px;*/
-  }
-  .images {
-    max-width: 250px; 
-    /*max-height: 150px;*/
-    /*position: relative;*/
-        /* Chrome, Safari, Opera */
-    /*-webkit-animation-name: moveit;*/
-    /*-webkit-animation-duration: 4s;*/
-    /*-webkit-animation-fill-mode: forwards;*/
-        /* Standard syntax */
-    /*animation-name: moveit;*/
-    /*animation-duration: 4s;*/
-    /*animation-fill-mode: forwards;*/
-    /*}*/
-     
-    /* Chrome, Safari, Opera */
-    /*@-webkit-keyframes moveit {*/
-        /*from {left: 0;}*/
-        /*to {left: 50%;}*/
-    /*}*/
-     
-     /*Standard syntax */
-    /*@keyframes moveit {*/
-        /*from {left: 0;}*/
-        /*to {left: 50%;}*/
-    }
+    max-width: 800px;
+    margin: auto 5px;
+      }
 
-/*  .rearrange-box {
+  .images {
+    max-width: 250px;
+    position: relative;
+  }
+
+  .rearrange-box {
     display: inline-block;
     margin: 0 auto;
     text-align: center;
     color: #00bb55;
     padding: 2px 2px;
     font-style: bold;
-    }*/
+    }
 
 
 </style>
@@ -93,6 +76,7 @@
 import axios from "axios";
 
 export default {
+
   data: function() {
     return {
       placements: [
