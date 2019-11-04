@@ -1,13 +1,11 @@
 <template>
-  <div class="rearranging">
+  <section class="rearranging pt-9 pb-6 py-md-7">
     <div class="container"> <!--contain everthing in this page -->
       <div class="headline"> <!-- the div class of game title and instructions. -->
         <h1>The Rearranging Game</h1>
-        <h2>Here are 9 sequence images in random positions.
-        <br> 
+        <h2>Here are 10 sequence images in random positions.
         Your jobs is to re-order them into their rightful positions,
-        <br> 
-        so they will actually look like sequence images.</h2>
+        so they will actually look like sequnce images. Hit "go" to begin. </h2>
       </div>  <!-- the end div class of game title and instructions. -->
       <form v-on:submit.prevent="submit()"> <!-- rearranging number will be typed in here. With the go button. -->
         <div>
@@ -23,17 +21,17 @@
         <input class="btn btn-lg" type="submit" value="go"> <!-- submit button -->
       </form>
 
-    <div>
-      <div class="row"> <!-- Go beck to backend and retrive the images. -->
-        <div class="col-md-4" v-for="imageOrder in imageOrders">
-          {{ imageOrder.image.label }}
-          <img class="images" v-bind:src="imageOrder.image.url" >
+      <div>
+        <div class="row"> <!-- Go beck to backend and retrive the images. -->
+          <div class="col-md-4" v-for="imageOrder in imageOrders">
+            {{ imageOrder.image.label }}
+            <img class="images" v-bind:src="imageOrder.image.url" >
+          </div>
         </div>
       </div>
-    </div>
 
     </div>
-  </div>
+  </section>
 </template>
 
 <style>
@@ -41,6 +39,7 @@
     font-style: bold;
     font-kerning: 2px;
     text-align: center;
+    color: #abbb55;
     }
 
   h2 {
@@ -50,26 +49,42 @@
 
   .row {
     max-width: 800px; 
-    max-height: 350px;
+    /*max-height: 350px;*/
   }
   .images {
     max-width: 250px; 
-    max-height: 150px;
-  }
-
-  .rearrange-box {
-    display: inline-block;
-    /*width: 30px;*/
-    /*margin: auto;
-    text-align: center;
-    font-style: italic;
-    color: #009966;
-    font-size: 25px;
-    background-color: #4C8F90;*/ /* Green 
-/*    color: white;
-    padding: 10px 10px;
-    text-decoration: overline;*/
+    /*max-height: 150px;*/
+    /*position: relative;*/
+        /* Chrome, Safari, Opera */
+    /*-webkit-animation-name: moveit;*/
+    /*-webkit-animation-duration: 4s;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+        /* Standard syntax */
+    /*animation-name: moveit;*/
+    /*animation-duration: 4s;*/
+    /*animation-fill-mode: forwards;*/
+    /*}*/
+     
+    /* Chrome, Safari, Opera */
+    /*@-webkit-keyframes moveit {*/
+        /*from {left: 0;}*/
+        /*to {left: 50%;}*/
+    /*}*/
+     
+     /*Standard syntax */
+    /*@keyframes moveit {*/
+        /*from {left: 0;}*/
+        /*to {left: 50%;}*/
     }
+
+/*  .rearrange-box {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    color: #00bb55;
+    padding: 2px 2px;
+    font-style: bold;
+    }*/
 
 
 </style>

@@ -20,8 +20,9 @@
     text-align: center;
     font-variant: small-caps;
 
+
   }
-  .start {
+  h2 {
     font-style: oblique;
     text-align: center;
   }
