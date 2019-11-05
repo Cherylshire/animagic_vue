@@ -5,6 +5,7 @@ import Signup from '../views/Signup.vue'
 import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 import Rearranging from '../views/Rearranging.vue'
+import Animated from '../views/Animated.vue'
 
 Vue.use(VueRouter)
 
@@ -13,6 +14,7 @@ const routes = [
   { path: "/signup", name: "signup", component: Signup },
   { path: "/login", name: "login", component: Login },
   { path: "/rearranging", name: "rearranging", component: Rearranging },
+  { path: "/animated", name: "animated", component: Animated },
   { path: "/logout", name: "logout", component: Logout }
 ]
 

@@ -43,7 +43,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-md navbar-scrollUp navbar-sticky navbar-white">
         <div class="container">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="/">
             <img class="d-inline-block" src="/assets/img/banner/slider-1/img-2.jpg" alt="Kidz School">
           </a>
 
@@ -55,7 +55,7 @@
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-lg-auto">
               <li class="nav-item dropdown bg-warning">
-                <a class="nav-link dropdown-toggle  active " href="localhost:8080"
+                <a class="nav-link dropdown-toggle  active " href="/"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-home nav-icon" aria-hidden="true"></i>
                   <span>Home</span>
@@ -71,11 +71,11 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="Signup.html">Sign
+                    <a class="dropdown-item " href="/signup">Sign
                       Up</a>
                   </li>
                   <li>
-                    <a class="dropdown-item " href="Login.html">Log In</a>
+                    <a class="dropdown-item " href="/login">Log In</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
@@ -84,7 +84,7 @@
               </li>
 
               <li class="nav-item dropdown mega-dropdown bg-success">
-                <a class="nav-link dropdown-toggle " href="#" role="button"
+                <a class="nav-link dropdown-toggle " href="/rearranging" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-file-text-o nav-icon" aria-hidden="true"></i>
                   <span>Rearranging</span>
@@ -92,12 +92,13 @@
                 <div class="dropdown-menu row">
                   <ul class="list-unstyled">
                     <li>Rearranging</li>
-                    <li><a class="" href="courses-grid-full.html">Sequence Animation</a></li>
+                    <li><a class="" href="/rearranging">The Rearanging Game</a></li>
+                    <li><a class="" href="/animated">Sequence Animation</a></li>
                   </ul>
                 </div>
 
                 <li class="nav-item dropdown bg-info">
-                  <a class="nav-link dropdown-toggle " href="javascript:void(0)" id="stores"
+                  <a class="nav-link dropdown-toggle " href="/pick_a_shape" id="stores"
                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
                   <span>Pick A Shape</span>
@@ -106,13 +107,14 @@
                   <div class="col-12 col-md-12">
                     <ul class="list-unstyled">
                       <li>Pick A Shape</li>
-                      <li><a class="" href="courses-grid-full.html">Looping Animation</a></li>
+                      <li><a class="" href="/pickAShape">Pick A Shape</a></li>
+                      <li><a class="" href="/loopingAnimation">Looping Animation</a></li>
                     </ul>
                   </div>
                 </div>
 
               <li class="nav-item dropdown bg-purple">
-                <a class="nav-link dropdown-toggle " href="javascript:void(0)" id="stores"
+                <a class="nav-link dropdown-toggle " href="/animation" id="stores"
                   role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-calendar nav-icon" aria-hidden="true"></i>
                   <span>Animation</span>
@@ -124,18 +126,18 @@
                        ||
                       
                     "
-                      href="javascript:void(0)">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="/9_old_men">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="blog-grid.html">Who are they?</a></li>
-                      <li><a class="" href="blog-grid-left-sidebar.html">Les Clark</a></li>
-                      <li><a class="" href="blog-grid-left-sidebar.html">Marc Davis</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Ollie Johnston</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Milt Kahl</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Ward Kimball</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Eric Larson</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">John Lounsbery</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Wolfgang Reitherman</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Frank Thomas</a></li>
+                      <li><a class="" href="/who9">Who are they?</a></li>
+                      <li><a class="" href="/lesClark">Les Clark</a></li>
+                      <li><a class="" href="/marcDavis">Marc Davis</a></li>
+                      <li><a class="" href="/ollieJohnston">Ollie Johnston</a></li>
+                      <li><a class="" href="/miltKahl">Milt Kahl</a></li>
+                      <li><a class="" href="/wardKimball">Ward Kimball</a></li>
+                      <li><a class="" href="/ericLarson">Eric Larson</a></li>
+                      <li><a class="" href="/johnLounsbery">John Lounsbery</a></li>
+                      <li><a class="" href="/wolfgangReitherman">Wolfgang Reitherman</a></li>
+                      <li><a class="" href="/frankThomas">Frank Thomas</a></li>
                     </ul>
                   </li>
                   <li>
@@ -143,50 +145,50 @@
                        ||
                        ||
                       "
-                      href="javascript:void(0)">12 Principles of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="/PrinciplesOfAnimation">12 Principles of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="principles_of_animation.vue">What's this?</a></li>
-                      <li><a class="" href="blog-list-left-sidebar.html">Squash & Stretch</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Staging</a></li>
+                      <li><a class="" href="/whatPrinciple">What's this?</a></li>
+                      <li><a class="" href="/squashStretch">Squash & Stretch</a></li>
+                      <li><a class="" href="/staging">Staging</a></li>
                       <li><a class="" href="blog-list-right-sidebar.html">Exaggeration</a></li>  
-                      <li><a class="" href="blog-list-left-sidebar.html">Anticipation</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Straight Ahead & Pose to Pose</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Fallow Through & Overlapping</a></li>
-                      <li><a class="" href="blog-list-left-sidebar.html">Slow In and Slow Out</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Arcs</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Secondary Action</a></li>
-                      <li><a class="" href="blog-list-left-sidebar.html">Timing</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Solid Drawing</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Appeal</a></li>
+                      <li><a class="" href="/anticipation">Anticipation</a></li>
+                      <li><a class="" href="/straightAheadPoseToPose">Straight Ahead & Pose to Pose</a></li>
+                      <li><a class="" href="/fallowThroughOverlapping">Fallow Through & Overlapping</a></li>
+                      <li><a class="" href="/slowlnSlowOut">Slow In and Slow Out</a></li>
+                      <li><a class="" href="/arcs">Arcs</a></li>
+                      <li><a class="" href="/secondaryAction">Secondary Action</a></li>
+                      <li><a class="" href="?timing">Timing</a></li>
+                      <li><a class="" href="/solidDrawing">Solid Drawing</a></li>
+                      <li><a class="" href="/appeal">Appeal</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">Buncing Balls<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                    <a href="/buncingBalls">Buncing Balls<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                   </li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown bg-danger">
-                <a class="nav-link dropdown-toggle " href="javascript:void(0)" role="button"
+                <a class="nav-link dropdown-toggle " href="/History" role="button"
                   data-toggle="dropdown">
                   <i class="fa fa-list-ul nav-icon" aria-hidden="true"></i>
                   <span>History</span>
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="Signup.html">30 Thousands BC</a>
+                    <a class="dropdown-item " href="/30000bc">30 Thousands BC</a>
                   </li>
                   <li>
-                    <a class="dropdown-item " href="Login.html">Cinematography</a>
+                    <a class="dropdown-item " href="/cinematography">Cinematography</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="coming-soon.html">19th Centery</a>
+                    <a class="dropdown-item" href="/19thCentery">19th Centery</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="coming-soon.html">20th Centery</a>
+                    <a class="dropdown-item" href="/20thCentery">20th Centery</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="coming-soon.html">21st Centery</a>
+                    <a class="dropdown-item" href="/21stCentery">21st Centery</a>
                   </li>
                 </ul>
               </li>
@@ -247,27 +249,27 @@
               <h4 class="section-title-sm font-weight-bold text-white mb-6">Useful Links</h4>
               <ul class="list-unstyled">
                 <li class="mb-4">
-                  <a href="index.html">
+                  <a href="/moGraph">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>What's motion graphic?
                   </a>
                 </li>
                 <li class="mb-4">
-                  <a href="about-us.html">
+                  <a href="/coding">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>About programming
                   </a>
                 </li>
                 <li class="mb-4">
-                  <a href="index-v2.html">
+                  <a href="/design">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Designing
                   </a>
                 </li>
                 <li class="mb-4">
-                  <a href="index-v3.html">
+                  <a href="/shapesColors">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>Shapes & colors
                   </a>
                 </li>
                 <li class="mb-3">
-                  <a href="photo-gallery.html">
+                  <a href="/gallery">
                     <i class="fa fa-angle-double-right mr-2" aria-hidden="true"></i>
                     Gallery
                   </a>
@@ -287,7 +289,7 @@
                     </a>
                     <div class="media-body">
                       <h5 class="line-hight-16 mb-1">
-                        <a class="font-base font-size-14" href="blog-single-left-sidebar.html">Check out Cheryl's website: www.cheryljune.net</a>
+                        <a class="font-base font-size-14" href="">Check out Cheryl's website: www.cheryljune.net</a>
                       </h5>
                       <time class="text-white">Nov 14 - 2019</time>
                     </div>

@@ -20,7 +20,7 @@
           </div>
         </div>
         <input class="btn btn-lg" type="submit" value="go"> <!-- submit button -->
-      <router-link to="/animation"><h2>Animated</h2></router-link>
+      <router-link to="/animated"><h2>Animated</h2></router-link>
 
       </form>
 
@@ -29,7 +29,6 @@
           <div class="col-md-4" v-for="imageOrder in imageOrders">
             {{ imageOrder.image.label }}
             <img class="images" v-bind:src="imageOrder.image.url" >
-
           </div>
         </div>
       </div>

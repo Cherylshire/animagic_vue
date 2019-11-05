@@ -1,22 +1,76 @@
 <template>
-  <section class="image_animation">
-    <body>
-      <div class="images_10"></div>
-      <img src="https://images.squarespace-cdn.com/content/v1/5b846691aa49a1b7c058ef56/1572320321148-ZCEM95H10UUXUPBAMWMO/ke17ZwdGBToddI8pDm48kG0D7cEoqoIrj_LzBsytZPQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcembaqQOQGuOOwh0LY1bIax1URXEywDaweDF_ceec6ysQnzkkLhxox6s2e7vPsuh7/3.png?format=1000w">
-      <img src="https://images.squarespace-cdn.com/content/v1/5b846691aa49a1b7c058ef56/1572320316821-XKYTU20WHVG9ACK78HEY/ke17ZwdGBToddI8pDm48kG0D7cEoqoIrj_LzBsytZPQUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcembaqQOQGuOOwh0LY1bIax1URXEywDaweDF_ceec6ysQnzkkLhxox6s2e7vPsuh7/1.png?format=1000w">
-  
-    </body>
+  <section class="animated pt-9 pb-6 py-md-7">
+    <div class="container"> <!--contain everthing in this page -->
+      <div class="headline"> <!-- the div class of game title and instructions. -->
+        <br>
+        <h1>The Animated Sequence</h1>
+        <h2>Here are the 10 sequence images in the positions you put in.
+        Watch them animate as the sequence goes on.</h2>
+      </div>  <!-- the end div class of game title and instructions. -->
+
+      <div>
+        <span v-for="(imageOrder, index) in imageOrders"> <span v-bind:class="{'current-label': index === currentImageIndex}">{{ imageOrder.image.label }}</span> - </span>
+        <div class="row"> <!-- Go beck to backend and retrive the images. -->
+          <div class="col-md-4">
+            {{ imageOrders[currentImageIndex].image.label }}
+            <img class="images" v-bind:src="imageOrders[currentImageIndex].image.url" >
+          </div>
+        </div>
+      </div>
+      <button v-on:click="stopAnimation()">Stop</button>
+
+    </div>
   </section>
 </template>
+
 <style>
-.images_10 {
-  background-color: red;
-  animation-name: example;
-  animation-duration: 10px 10px;
+.current-label {
+  color: navy;
+  font-size: 20px;
 }
 </style>
 
 <script>
-  
+import axios from "axios";
+
+export default {
+
+  data: function() {
+    return {
+      imageOrders: [
+        {
+          image: {
+            label: "",
+            url: ""
+          }
+        }
+      ],
+      currentImageIndex: 0,
+      animationInterval: ""
+    };
+  },
+  created: function() {
+    axios
+      .get("/api/image_orders") 
+      .then(response => {
+        this.imageOrders = response.data;
+
+        this.animationInterval = setInterval(() => { 
+
+          if (this.currentImageIndex < this.imageOrders.length ) {
+            this.currentImageIndex++;
+          } else {
+            this.currentImageIndex = 0;
+          }
+
+        }, 500);
+      });
+  },
+  methods: {
+    stopAnimation: function() {
+      clearInterval(this.animationInterval);
+    }
+  }
+};
 
 </script>
