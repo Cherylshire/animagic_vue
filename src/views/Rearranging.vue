@@ -20,7 +20,8 @@
           </div>
         </div>
         <input class="btn btn-lg" type="submit" value="go"> <!-- submit button -->
-        <button class="btn btn-lg" href="">animate</button>
+      <router-link to="/animation"><h2>Animated</h2></router-link>
+
       </form>
 
       <div>

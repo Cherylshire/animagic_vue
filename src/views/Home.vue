@@ -12,6 +12,7 @@
       <router-link to="/signup"><h2>Sign up</h2></router-link> |||| 
       <router-link to="/login"><h2>Log in</h2></router-link> ||||
       <router-link to="/rearranging"><h2>Rearranging</h2></router-link>
+      <router-link to="/animation"><h2>Animated</h2></router-link>
     </div>
   </div>
 </template>

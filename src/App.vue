@@ -55,7 +55,7 @@
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-lg-auto">
               <li class="nav-item dropdown bg-warning">
-                <a class="nav-link dropdown-toggle  active " href="javascript:void(0)"
+                <a class="nav-link dropdown-toggle  active " href="localhost:8080"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-home nav-icon" aria-hidden="true"></i>
                   <span>Home</span>
@@ -71,8 +71,11 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="sign-up-or-login.html">Sign
+                    <a class="dropdown-item " href="Signup.html">Sign
                       Up</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item " href="Login.html">Log In</a>
                   </li>
                   <li>
                     <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
@@ -84,115 +87,29 @@
                 <a class="nav-link dropdown-toggle " href="#" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-file-text-o nav-icon" aria-hidden="true"></i>
-                  <span>Log In</span>
+                  <span>Rearranging</span>
                 </a>
                 <div class="dropdown-menu row">
-                  <div class="col-12 col-md-3">
-                    <ul class="list-unstyled">
-                      <li>Courses Grid</li>
-                      <li><a class="" href="courses-grid-full.html">Courses
-                          Grid Fullwidth</a></li>
-                      <li><a class="" href="courses-grid-left-sidebar.html">Courses
-                          Grid Left Sidebar</a></li>
-                      <li><a class="" href="courses-grid-right-sidebar.html">Courses
-                          Grid Right Sidebar</a></li>
-                    </ul>
-                  </div>
+                  <ul class="list-unstyled">
+                    <li>Rearranging</li>
+                    <li><a class="" href="courses-grid-full.html">Sequence Animation</a></li>
+                  </ul>
+                </div>
 
-                  <div class="col-12 col-md-3">
+                <li class="nav-item dropdown bg-info">
+                  <a class="nav-link dropdown-toggle " href="javascript:void(0)" id="stores"
+                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
+                  <span>Pick A Shape</span>
+                </a>
+                <div class="dropdown-menu row">
+                  <div class="col-12 col-md-12">
                     <ul class="list-unstyled">
-                      <li>Courses List</li>
-                      <li><a class="" href="course-list-fullwidth.html">Courses
-                          List Fullwidth</a></li>
-                      <li><a class="" href="course-list-left-sidebar.html">Courses
-                          List left Sidebar</a></li>
-                      <li><a class="" href="course-list-right-sidebar.html">Courses
-                          List Right Sidebar</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="col-12 col-md-3">
-                    <ul class="list-unstyled">
-                      <li>Single Course</li>
-                      <li><a class="" href="course-single.html">Single Course
-                          Fullwidth</a></li>
-                      <li><a class="" href="course-single-left-sidebar.html">Single
-                          Course left Sidebar</a></li>
-                      <li><a class="" href="course-single-right-sidebar.html">Single
-                          Course Right Sidebar</a></li>
-                    </ul>
-                  </div>
-
-                  <div class="col-12 col-md-3">
-                    <ul class="list-unstyled">
-                      <li>Checkout</li>
-                      <li><a class="" href="product-checkout-step-1.html">Personal
-                          Info</a></li>
-                      <li><a class="" href="product-checkout-step-2.html">Payment
-                          Info</a></li>
-                      <li><a class="" href="product-checkout-step-3.html">Confirmation</a></li>
+                      <li>Pick A Shape</li>
+                      <li><a class="" href="courses-grid-full.html">Looping Animation</a></li>
                     </ul>
                   </div>
                 </div>
-              </li>
-
-              <li class="nav-item dropdown bg-info">
-                <a class="nav-link dropdown-toggle " href="javascript:void(0)" id="stores"
-                  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
-                  <span>Rearranging</span>
-                </a>
-                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="stores">
-                  <li>
-                    <a class="dropdown-item
-                     ||
-                     ||
-                    
-
-                    "
-                      href="javascript:void(0)">Products<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <ul class="sub-menu">
-                      <li><a class="" href="products.html">Products Fullwidth</a></li>
-                      <li><a class="" href="product-left-sidebar.html">Products
-                          Left Sidebar</a></li>
-                      <li><a class="" href="product-right-sidebar.html">Products
-                          Right Sidebar</a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="product-single.html">Single
-                      Product</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="product-category.html">Product
-                      Categories</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item " href="product-cart.html">Cart</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item
-                       ||
-                       ||
-                      
-                      "
-                      href="javascript:void(0)">Checkout<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <ul class="sub-menu">
-                      <li>
-                        <a class="" href="product-checkout-step-1.html">Personal
-                          Info</a>
-                      </li>
-                      <li>
-                        <a class="" href="product-checkout-step-2.html">Payment
-                          Info</a>
-                      </li>
-                      <li>
-                        <a class="" href="product-checkout-step-3.html">Confirmation</a>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
 
               <li class="nav-item dropdown bg-purple">
                 <a class="nav-link dropdown-toggle " href="javascript:void(0)" id="stores"
@@ -207,13 +124,18 @@
                        ||
                       
                     "
-                      href="javascript:void(0)">Blog Grid<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="javascript:void(0)">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="blog-grid.html">Blog Grid Fullwidth</a></li>
-                      <li><a class="" href="blog-grid-left-sidebar.html">Blog
-                          Grid Left Sidebar</a></li>
-                      <li><a class="" href="blog-grid-right-sidebar.html">Blog
-                          Grid Right Sidebar</a></li>
+                      <li><a class="" href="blog-grid.html">Who are they?</a></li>
+                      <li><a class="" href="blog-grid-left-sidebar.html">Les Clark</a></li>
+                      <li><a class="" href="blog-grid-left-sidebar.html">Marc Davis</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Ollie Johnston</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Milt Kahl</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Ward Kimball</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Eric Larson</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">John Lounsbery</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Wolfgang Reitherman</a></li>
+                      <li><a class="" href="blog-grid-right-sidebar.html">Frank Thomas</a></li>
                     </ul>
                   </li>
                   <li>
@@ -221,39 +143,52 @@
                        ||
                        ||
                       "
-                      href="javascript:void(0)">Blog List<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="javascript:void(0)">12 Principles of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="blog-list.html">Blog List Fullwidth</a></li>
-                      <li><a class="" href="blog-list-left-sidebar.html">Blog
-                          List Left Sidebar</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Blog
-                          List Right Sidebar</a></li>
+                      <li><a class="" href="principles_of_animation.vue">What's this?</a></li>
+                      <li><a class="" href="blog-list-left-sidebar.html">Squash & Stretch</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Staging</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Exaggeration</a></li>  
+                      <li><a class="" href="blog-list-left-sidebar.html">Anticipation</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Straight Ahead & Pose to Pose</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Fallow Through & Overlapping</a></li>
+                      <li><a class="" href="blog-list-left-sidebar.html">Slow In and Slow Out</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Arcs</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Secondary Action</a></li>
+                      <li><a class="" href="blog-list-left-sidebar.html">Timing</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Solid Drawing</a></li>
+                      <li><a class="" href="blog-list-right-sidebar.html">Appeal</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a class="dropdown-item
-                       ||
-                       ||
-                      
-                    "
-                      href="javascript:void(0)">Single Blog<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <ul class="sub-menu">
-                      <li><a class="" href="blog-single.html">Blog Single
-                          Fullwidth</a></li>
-                      <li><a class="" href="blog-single-left-sidebar.html">Blog
-                          Single Left Sidebar</a></li>
-                      <li><a class="" href="blog-single-right-sidebar.html">Blog
-                          Single Right Sidebar</a></li>
-                    </ul>
+                    <a href="javascript:void(0)">Buncing Balls<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown bg-pink">
-                <a class="nav-link dropdown-toggle " href="component-default.html">
-                  <i class="fa fa-home nav-icon" aria-hidden="true"></i>
+              <li class="nav-item dropdown bg-danger">
+                <a class="nav-link dropdown-toggle " href="javascript:void(0)" role="button"
+                  data-toggle="dropdown">
+                  <i class="fa fa-list-ul nav-icon" aria-hidden="true"></i>
                   <span>History</span>
                 </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item " href="Signup.html">30 Thousands BC</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item " href="Login.html">Cinematography</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="coming-soon.html">19th Centery</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="coming-soon.html">20th Centery</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="coming-soon.html">21st Centery</a>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
