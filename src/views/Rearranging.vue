@@ -6,22 +6,21 @@
         <h1>The Rearranging Game</h1>
         <h2>Here are 10 sequence images in random positions.
         Your jobs is to re-order them into their rightful positions,
-        so they will actually look like sequnce images. Hit "go" to begin. </h2>
+        so they will actually look like sequnce images. </h2>
       </div>  <!-- the end div class of game title and instructions. -->
       <form v-on:submit.prevent="submit()"> <!-- rearranging number will be typed in here. With the go button. -->
         <div>
           <div class="rearrange-box" v-for="placement_hash in placements"> <!-- this is like a each loop. go through images id 1-9. --> 
-            <div class="letter-rearrange-box">  <!-- label A-I box -->
+            <div class="letter-rearrange-box">  <!-- label A-J box -->
               {{ placement_hash.label }}
             </div>
-            <div class="select-placement">  <!--rearranging A-I to 1-9. -->
+            <div class="select-placement">  <!--rearranging A-J to 1-9. -->
               <input type="number" v-model="placement_hash.placement">
             </div>
           </div>
         </div>
         <input class="btn btn-lg" type="submit" value="go"> <!-- submit button -->
-      <router-link to="/animated"><h2>Animated</h2></router-link>
-
+        <router-link to="/animated"><h2>Animated</h2></router-link>
       </form>
 
       <div>

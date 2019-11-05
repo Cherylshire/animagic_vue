@@ -78,6 +78,9 @@
                     <a class="dropdown-item " href="/login">Log In</a>
                   </li>
                   <li>
+                    <a class="dropdown-item " href="/logout">Log Out</a>
+                  </li>
+                  <li>
                     <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
                   </li>
                 </ul>
@@ -98,7 +101,7 @@
                 </div>
 
                 <li class="nav-item dropdown bg-info">
-                  <a class="nav-link dropdown-toggle " href="/pick_a_shape" id="stores"
+                  <a class="nav-link dropdown-toggle " href="/pickAShape" id="stores"
                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
                   <span>Pick A Shape</span>
