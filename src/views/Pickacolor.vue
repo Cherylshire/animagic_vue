@@ -3,13 +3,16 @@
     <div class="container"> <!--contain everthing in this page -->
       <div class="headline"> <!-- the div class of game title and instructions. -->
         <br>
-        <h1>Pick A Shape</h1>
-        <h2>In this game, you will pick a shape, a color and a stroke thickness to make a stick figure. </h2>
+        <h1>Pick A Colore</h1>
+        <h2>After you select the shape you want, pick a color. </h2>
       </div>  <!-- the end div class of game title and instructions. -->
-      <div class="shapes">
-        <button><img v-bind:src="imagePath_s"></button>
-        <button><img v-bind:src="imagePath_c"></button>
-        <button><img v-bind:src="imagePath_r"></button>
+      <div>
+        <img src="/public/image/red.png" alt="/pickastroke">
+        <img src="/public/image/orange.png" alt="/pickastroke">
+        <img src="/public/image/Yellow.png" alt="/pickastroke">
+        <img src="/public/image/circle.png" alt="/pickastroke">
+        <img src="/public/image/blue.png" alt="/pickastroke">
+        <img src="/public/image/purple.png" alt="/pickastroke">
       </div>
 
     </div>
@@ -23,22 +26,15 @@
     text-align: center;
     color: #abbb55;
     }
+
   h2 {
     font-style: bold;
     text-align: center;
     }
-  .shapes {
-    width: 100px;
-    }
 </style>
 
 <script>
-  export default {
-  data: function() {
-    return {
-      imagePath_s:"image/square.png",
-      imagePath_c:"image/circle.png",
-      imagePath_r:"image/triangle.png"
-}}};
+
+
 
 </script>
