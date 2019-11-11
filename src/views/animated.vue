@@ -24,10 +24,10 @@
 </template>
 
 <style>
-.current-label {
+/*.current-label {
   color: navy;
   font-size: 20px;
-}
+}*/
 </style>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="I">
+  <section class="firstsixprinciples">
     <div class="container">
       <div class="headline">
         <br>
@@ -49,17 +49,7 @@
 </template>
 
 <style>
-  h1 {
-    font-style: bold;
-    font-kerning: 2px;
-    text-align: center;
-    color: #abbb55;
-    }
 
-  h2 {
-    font-style: bold;
-    text-align: center;
-    }
 </style>
 
 <script>

@@ -37,7 +37,7 @@
 </template>
 
 <style>
-  h1 {
+  /*h1 {
     font-style: bold;
     font-kerning: 2px;
     text-align: center;
@@ -66,7 +66,7 @@
     color: #00bb55;
     padding: 2px 2px;
     font-style: bold;
-    }
+    }*/
 
 
 </style>

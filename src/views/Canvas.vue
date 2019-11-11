@@ -1,17 +1,18 @@
 <template>
   <div class="canvas">
-    <h1>This is Hoggie the stickman.</h1>
-    <h2>Hoggie was drawn with a circle and  9 rectangles. </h2>
-    <h2>He exist only on this canvas. His head can flow everywhere on the canvas, try to make him invisible.</h2>
-
+    <h1>This is a maze.</h1>
+    <h2>Try to lead the circle to the exit </h2>
     <!-- These are the custom components we'll create -->
     <!-- Values for `my-box` are percentages of the width of the canvas. -->
     <!-- Each bar will take up an equal space of the canvas. -->
-
-    <p>left and right</p><input type="range" name="points" min="50" max="1400" v-model="circleValues[0].x">
-    <p>up and down</p><input type="range" name="points" min="0"  max="1000"  v-model="circleValues[0].y">
-    <!-- <input type="range" name="points" min="50" max="1400" v-model="rectangleValues[0].x"> -->
-    <!-- <input type="range" name="points" min="120"  max="400"  v-model="rectangleValues[0].y"> -->
+    <div class="range_bar">
+      <div>left and right </div>
+      <div><input type="range" name="points" min="0" max="2000" v-model="circleValues[0].x"> </div>
+      <div>up and down</div>
+      <div><input type="range" name="points" min="20"  max="970"  v-model="circleValues[0].y"></div>
+    </div>
+<!--     <input type="range" name="points" min="50" max="1400" v-model="rectangleValues[0].x"> --> 
+    <!-- <p>body up and down<input type="range" name="points" min="290"  max="300"  v-model="rectangleValues[0].y"></p> -->
     <!-- <input type="range" name="points" min="50" max="1400" v-model="stickraValues[0].x"> -->
     <!-- <input type="range" name="points" min="50" max="1400" v-model="stickrlValues[0].x"> -->
     <!-- <input type="range" name="points" min="50" max="1400" v-model="sticklaValues[0].x"> -->
@@ -106,23 +107,30 @@
         :color="sticklll.color"
       >
       </my-sticklll>
+      <my-stickqaz
+        v-for="stickqaz in stickqazValues"
+        :x="stickqaz.x"
+        :y="stickqaz.y"
+        :w="stickqaz.w"
+        :h="stickqaz.h"
+        :color="stickqaz.color"
+      >
+      </my-stickqaz>
     </my-canvas>
-    </my-canvas>
+      <p>exit</p>
   </div>
 </template>
 
 <style>
+      .range_bar {
+        margin-left: 30px;
+      }
       canvas {
-        border: 3px solid crimson;
+        border: 5px solid teal;
+        margin-left: 30px;
+        margin-top: 0px;
         height: 700px;
         width: 1000px;
-      }
-      body {
-        margin: 0px ;
-      }
-      html, body {
-        margin: 0;
-        padding: 0;
       }
 </style>
 
@@ -139,6 +147,7 @@
   import MySticklla    from '../components/MySticklla.vue';
   import MyStickrll    from '../components/MyStickrll.vue';
   import MySticklll    from '../components/MySticklll.vue';
+  import MyStickqaz    from '../components/MyStickqaz.vue';
 
   export default {
     components: {
@@ -153,44 +162,51 @@
       MyStickrla,
       MySticklla,
       MyStickrll,
-      MySticklll
+      MySticklll,
+      MyStickqaz
     },
     data: function() {
       return {
         rectangleValues: [
-          {color: 'navy', x: 390, y: 200, w: 120, h: 160}
-        ],
-        circleValues: [
-          {color: 'green', x: 450, y: 100, r: 70}
+          {color: 'green', x: 70, y: 0, w: 15, h: 900}
         ],
         stickruaValues: [
-          {color: 'red', x: 270, y: 200, w: 120, h: 30}
+          {color: 'green', x: 210, y: 100, w: 15, h: 900}
         ],
         stickluaValues: [
-          {color: 'red', x: 510, y: 200, w: 120, h: 30}
+          {color: 'green', x: 210, y: 100, w: 900, h: 15}
         ],
         stickrulValues: [
-          {color: 'red', x: 390, y: 360, w: 30, h: 140}
+          {color: 'green', x: 1210, y: 0, w: 15, h: 900}
         ],
         sticklulValues: [
-          {color: 'red', x: 480, y: 360, w: 30, h: 140}
+          {color: 'green', x: 350, y: 900, w: 875, h: 15}
         ],
         stickrlaValues: [
-          {color: 'black', x: 180, y: 200, w: 90, h: 30}
+          {color: 'green', x: 1320, y: 100, w: 15, h: 900}
         ],
         stickllaValues: [
-          {color: 'black', x: 630, y: 200, w: 90, h: 30}
+          {color: 'green', x: 410, y: 250, w: 800, h: 15}
         ],
         stickrllValues: [
-          {color: 'black', x: 390, y: 500, w: 30, h: 90}
+          {color: 'green', x: 210, y: 400, w: 800, h: 15}
         ],
         sticklllValues: [
-          {color: 'black', x: 480, y: 500, w: 30, h: 90}
+          {color: 'green', x: 410, y: 550, w: 800, h: 15}
+        ],
+        stickqazValues: [
+          {color: 'green', x: 210, y: 725, w: 800, h: 15}
+        ],
+        circleValues: [
+          {color: 'navy', x: 20, y: 20, r: 20}
         ]
       }
     },
   }
 </script>
+
+
+
 <!-- 
     // Randomly selects a value to randomly increment or decrement every 16 ms.
     // Not really important, just demonstrates that reactivity still works.

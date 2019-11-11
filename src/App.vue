@@ -51,12 +51,15 @@
             aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-bars"></i>
           </button>
+<!--                 
+                
+                <router-link to="/canvas"><h2>Maze</h2></router-link>  -->
 
           <div class="collapse navbar-collapse" id="navbarContent">
             <ul class="navbar-nav ml-lg-auto">
               <li class="nav-item dropdown bg-warning">
-                <a class="nav-link dropdown-toggle  active " href="/"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle " href="/"
+                  aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-home nav-icon" aria-hidden="true"></i>
                   <span>Home</span>
                 </a>
@@ -71,22 +74,18 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item " href="/signup">Sign
-                      Up</a>
+                    <router-link class="dropdown-item" to="/signup">Sign up</router-link> 
                   </li>
                   <li>
-                    <a class="dropdown-item " href="/login">Log In</a>
+                    <router-link class="dropdown-item" to="/login">Log in</router-link>
                   </li>
                   <li>
-                    <a class="dropdown-item " href="/logout">Log Out</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="coming-soon.html">Coming Soon</a>
+                    <router-link class="dropdown-item" to="/logout">Log out</router-link>
                   </li>
                 </ul>
               </li>
 
-              <li class="nav-item dropdown mega-dropdown bg-success">
+              <li class="nav-item dropdown bg-success">
                 <a class="nav-link dropdown-toggle " href="/rearranging" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <i class="fa fa-file-text-o nav-icon" aria-hidden="true"></i>
@@ -94,23 +93,23 @@
                 </a>
                 <div class="dropdown-menu row">
                   <ul class="list-unstyled">
-                    <li>Rearranging</li>
-                    <li><a class="" href="/rearranging">The Rearanging Game</a></li>
-                    <li><a class="" href="/animated">Sequence Animation</a></li>
+                    <li>Rearranging</li>      
+                    <li><router-link to="/rearranging">Rearranging</router-link></li>
+                    <li><router-link to="/animated">Sequence Animation</router-link></li>
                   </ul>
                 </div>
 
                 <li class="nav-item dropdown bg-info">
-                  <a class="nav-link dropdown-toggle " href="/pickAShape" id="stores"
+                  <a class="nav-link dropdown-toggle " href="/Canvas" id="stores"
                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
-                  <span>Stickman</span>
+                  <span>Maze</span>
                 </a>
                 <div class="dropdown-menu row">
                   <div class="col-12 col-md-12">
                     <ul class="list-unstyled">
-                      <li>Stickman</li>
-                      <li><a class="" href="/Stickman">Stiakman</a></li>
+                      <li>Maze</li>
+                      <li> <router-link to="/canvas">Maze</router-link></li>
                       <!-- <li><a class="" href="/loopingAnimation">Looping Animation</a></li> -->
                     </ul>
                   </div>
@@ -129,19 +128,10 @@
                        ||
                       
                     "
-                      href="/9_old_men">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="/whonine">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="/who9">Who are they?</a></li>
-                      <li><a class="" href="/introducing">Introducing</a></li>
-<!--                       <li><a class="" href="/lesClark">Les Clark</a></li>
-                      <li><a class="" href="/marcDavis">Marc Davis</a></li>
-                      <li><a class="" href="/ollieJohnston">Ollie Johnston</a></li>
-                      <li><a class="" href="/miltKahl">Milt Kahl</a></li>
-                      <li><a class="" href="/wardKimball">Ward Kimball</a></li>
-                      <li><a class="" href="/ericLarson">Eric Larson</a></li>
-                      <li><a class="" href="/johnLounsbery">John Lounsbery</a></li>
-                      <li><a class="" href="/wolfgangReitherman">Wolfgang Reitherman</a></li>
-                      <li><a class="" href="/frankThomas">Frank Thomas</a></li> -->
+                      <li><a href="/whonine">Who are they?</a></li>
+                      <li><a href="/introducing">Introducing</a></li>
                     </ul>
                   </li>
                   <li>
@@ -149,21 +139,18 @@
                        ||
                        ||
                       "
-                      href="/PrinciplesOfAnimation">12 Principles of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                      href="/PrinciplesOfAnimation">Introduction of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
-                      <li><a class="" href="/whatPrinciple">What's this?</a></li>
+                      <li><a class="" href="/whatPrinciple">12 principles</a></li>
                       <li><a class="" href="/firstsixprinciples">Principles I</a></li>
                       <li><a class="" href="/secondsixprinciples">Principles II</a></li>
                     </ul>
-                  </li>
-                  <li>
-                    <a href="/buncingBalls">Buncing Balls<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                   </li>
                 </ul>
               </li>
 
               <li class="nav-item dropdown bg-danger">
-                <a class="nav-link dropdown-toggle " href="/History" role="button"
+                <a class="nav-link dropdown-toggle " href="/history" role="button"
                   data-toggle="dropdown">
                   <i class="fa fa-list-ul nav-icon" aria-hidden="true"></i>
                   <span>History</span>
@@ -173,19 +160,19 @@
                     <a class="dropdown-item " href="/30000bc">30 Thousands BC</a>
                   </li>
                   <li>
-                    <a class="dropdown-item " href="/earlyMillennium">Early Millenniums</a>
+                    <a class="dropdown-item " href="/earlymillennium">Early Millenniums</a>
                   </li>
                   <li>
                     <a class="dropdown-item " href="/cinematography">Cinematography</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/19thCentery">19th Centery</a>
+                    <a class="dropdown-item" href="/19thCentury">19th Century</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/20thCentery">20th Centery</a>
+                    <a class="dropdown-item" href="/20thCentury">20th Century</a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/21stCentery">21st Centery</a>
+                    <a class="dropdown-item" href="/21stCentury">21st Century</a>
                   </li>
                 </ul>
               </li>
@@ -195,7 +182,7 @@
       </nav>
     </header>
 
-    <div class="main-wrapper home">
+    <div class="main-wrapper home container">
     
     <router-view/>
 
@@ -280,12 +267,9 @@
 
                 <li class="mb-4 pb-4">
                   <div class="media">
-                    <a class="mr-2" href="blog-single-left-sidebar.html">
-                      <img class="rounded-lg w-100 border-info border-2 d-block" data-src="assets/img/blog/blog-sm-img7.jpg"
-                        src="assets/img/blog/blog-sm-img7.jpg" alt="blog-sm-img7.jpg">
-                    </a>
                     <div class="media-body">
                       <h5 class="line-hight-16 mb-1">
+                        <div><img src="https://image.flaticon.com/icons/svg/174/174855.svg"></div>
                         <a class="font-base font-size-14" href="">Check out Cheryl's website: www.cheryljune.net</a>
                       </h5>
                       <time class="text-white">Nov 14 - 2019</time>
@@ -359,23 +343,5 @@
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #99cc99;
-}
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #88ee88;
-}
-
-#nav a.router-link-exact-active {
-  color: #888888;
-}
 </style>

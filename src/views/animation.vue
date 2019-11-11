@@ -1,8 +1,8 @@
 <template>
-  <section class="principlesofanimation">
+  <section class="animation">
     <div class="container">
       <div class="headline">
-        <h1>Introduction of Animation</h1>
+        <h1>Animation</h1>
         <div>
           <h2>
             <div>Animation comes from the Latin words “anima,” which means “life,” and “animare” which means “to breathe life into”    Animation consists of still images (called “frames”) with slight differences between them. When viewed together in a sequence, they give the illusion of motion – like a flipbook.</div>
@@ -58,46 +58,20 @@
             </div>
            </h2>
         </div>
+      </div> 
+      <div>
+        <p>Citation: https://www.filmandfashionacademy.com/courses/introduction-to-animation/</p>
       </div>
-    </div>
+    </div>  
   </section>
 </template>
 
 <style>
-  /*h1 {
-    font-style: bold;
-    font-kerning: 2px;
-    text-align: center;
-    color: #abbb55;
-    }
-
-  h2 {
-    font-style: bold;
-    text-align: center;
-    }
-
-  .row {
-    max-width: 800px;
-    margin: auto 5px;
-      }
-
-  .images {
-    max-width: 250px;
-    position: relative;
-  }
-
-  .rearrange-box {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    color: #00bb55;
-    padding: 2px 2px;
-    font-style: bold;
-    }
-*/
 
 </style>
 
 <script>
 
 </script>
+
+
