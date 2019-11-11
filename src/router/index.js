@@ -6,7 +6,7 @@ import Login from '../views/Login.vue'
 import Logout from '../views/Logout.vue'
 import Rearranging from '../views/Rearranging.vue'
 import Animated from '../views/Animated.vue'
-import Pickashape from '../views/PickAShape.vue'
+import Stickman from '../views/Stickman.vue'
 
 Vue.use(VueRouter)
 
@@ -17,7 +17,7 @@ const routes = [
   { path: "/rearranging", name: "rearranging", component: Rearranging },
   { path: "/animated", name: "animated", component: Animated },
   { path: "/logout", name: "logout", component: Logout },
-  { path: "/PickAShape", name: "pickashape", component: Pickashape }
+  { path: "/stickman", name: "stickman", component: Stickman }
 ]
 
 const router = new VueRouter({

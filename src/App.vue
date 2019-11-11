@@ -104,14 +104,14 @@
                   <a class="nav-link dropdown-toggle " href="/pickAShape" id="stores"
                     role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="fa fa-pencil-square-o nav-icon" aria-hidden="true"></i>
-                  <span>Pick A Shape</span>
+                  <span>Stickman</span>
                 </a>
                 <div class="dropdown-menu row">
                   <div class="col-12 col-md-12">
                     <ul class="list-unstyled">
-                      <li>Pick A Shape</li>
-                      <li><a class="" href="/pickAShape">Pick A Shape</a></li>
-                      <li><a class="" href="/loopingAnimation">Looping Animation</a></li>
+                      <li>Stickman</li>
+                      <li><a class="" href="/Stickman">Stiakman</a></li>
+                      <!-- <li><a class="" href="/loopingAnimation">Looping Animation</a></li> -->
                     </ul>
                   </div>
                 </div>
@@ -132,7 +132,8 @@
                       href="/9_old_men">Disney's 9 old men<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
                       <li><a class="" href="/who9">Who are they?</a></li>
-                      <li><a class="" href="/lesClark">Les Clark</a></li>
+                      <li><a class="" href="/introducing">Introducing</a></li>
+<!--                       <li><a class="" href="/lesClark">Les Clark</a></li>
                       <li><a class="" href="/marcDavis">Marc Davis</a></li>
                       <li><a class="" href="/ollieJohnston">Ollie Johnston</a></li>
                       <li><a class="" href="/miltKahl">Milt Kahl</a></li>
@@ -140,7 +141,7 @@
                       <li><a class="" href="/ericLarson">Eric Larson</a></li>
                       <li><a class="" href="/johnLounsbery">John Lounsbery</a></li>
                       <li><a class="" href="/wolfgangReitherman">Wolfgang Reitherman</a></li>
-                      <li><a class="" href="/frankThomas">Frank Thomas</a></li>
+                      <li><a class="" href="/frankThomas">Frank Thomas</a></li> -->
                     </ul>
                   </li>
                   <li>
@@ -151,18 +152,8 @@
                       href="/PrinciplesOfAnimation">12 Principles of Animation<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
                     <ul class="sub-menu">
                       <li><a class="" href="/whatPrinciple">What's this?</a></li>
-                      <li><a class="" href="/squashStretch">Squash & Stretch</a></li>
-                      <li><a class="" href="/staging">Staging</a></li>
-                      <li><a class="" href="blog-list-right-sidebar.html">Exaggeration</a></li>  
-                      <li><a class="" href="/anticipation">Anticipation</a></li>
-                      <li><a class="" href="/straightAheadPoseToPose">Straight Ahead & Pose to Pose</a></li>
-                      <li><a class="" href="/fallowThroughOverlapping">Fallow Through & Overlapping</a></li>
-                      <li><a class="" href="/slowlnSlowOut">Slow In and Slow Out</a></li>
-                      <li><a class="" href="/arcs">Arcs</a></li>
-                      <li><a class="" href="/secondaryAction">Secondary Action</a></li>
-                      <li><a class="" href="?timing">Timing</a></li>
-                      <li><a class="" href="/solidDrawing">Solid Drawing</a></li>
-                      <li><a class="" href="/appeal">Appeal</a></li>
+                      <li><a class="" href="/firstsixprinciples">Principles I</a></li>
+                      <li><a class="" href="/secondsixprinciples">Principles II</a></li>
                     </ul>
                   </li>
                   <li>
@@ -180,6 +171,9 @@
                 <ul class="dropdown-menu">
                   <li>
                     <a class="dropdown-item " href="/30000bc">30 Thousands BC</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item " href="/earlyMillennium">Early Millenniums</a>
                   </li>
                   <li>
                     <a class="dropdown-item " href="/cinematography">Cinematography</a>
