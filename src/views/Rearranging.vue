@@ -2,8 +2,11 @@
   <section class="rearranging pt-9 pb-6 py-md-7">
     <div class="container"> <!--contain everthing in this page -->
       <div class="headline"> <!-- the div class of game title and instructions. -->
-        <br>
-        <h1>The Rearranging Game</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Rearranging</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <h2>Here are 10 sequence images in random positions.
         Your jobs is to re-order them into their rightful positions,
         so they will actually look like sequnce images. </h2>
@@ -37,7 +40,7 @@
 </template>
 
 <style>
-  /*h1 {
+  h1 {
     font-style: bold;
     font-kerning: 2px;
     text-align: center;
@@ -50,12 +53,13 @@
     }
 
   .row {
-    max-width: 800px;
-    margin: auto 5px;
+    max-width: 1000px;
+    margin: auto 10px;
+    font-size: 20px;
       }
 
   .images {
-    max-width: 250px;
+    max-width: 280px;
     position: relative;
   }
 
@@ -63,10 +67,10 @@
     display: inline-block;
     margin: 0 auto;
     text-align: center;
-    color: #00bb55;
+    font-size: 20px;
     padding: 2px 2px;
     font-style: bold;
-    }*/
+    }
 
 
 </style>

@@ -2,8 +2,11 @@
   <section class="secondsixprinciples">
     <div class="container">
       <div class="headline">
-        <br>
-        <h1>Principles of Animation II</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Principles II</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <div>
           <h2>
             <div>7. Arc</div>

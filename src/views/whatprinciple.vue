@@ -2,8 +2,12 @@
   <section class="whatprinciple">
     <div class="container">
       <div class="headline">
-        <br>
-        <h1>Principles of Animation, an overview.</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Principles of Animation, an overview.</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
+
         <div>
           <h2>
             <div>The 12 principles of animation were first introduced by Disney animators Ollie Johnston and Frank Thomas in their book The Illusion of Life: Disney Animation, which was first released in 1981. In this book, Johnston and Thomas examine the work of leading Disney animators from the 1930s and onwards, and boil their approach down to 12 basic principles of animation.</div>

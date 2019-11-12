@@ -2,8 +2,11 @@
   <section class="cinematography">
     <div class="container">
       <div class="headline">
-        <br>
-        <h1>Early Cinematography</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Early Cinematography</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <div>
           <h2>
             <div>In the 1830s, moving images were produced on revolving drums and disks, with independent invention by Simon von Stampfer (stroboscope) in Austria, Joseph Plateau (phenakistoscope) in Belgium, and William Horner (zoetrope) in Britain.</div>
@@ -25,7 +28,7 @@
 </template>
 
 <style>
-
+  
 </style>
 
 <script>

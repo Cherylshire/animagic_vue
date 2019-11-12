@@ -1,7 +1,11 @@
 <template>
   <div class="canvas">
-    <h1>This is a maze.</h1>
-    <h2>Try to lead the circle to the exit </h2>
+    <div class="section-title justify-content-center MB-1 wow fadeInUp">
+      <span class="shape shape-left bg-info"></span>
+      <h2 class="text-danger">Maze</h2>
+      <span class="shape shape-right bg-info"></span>
+    </div>
+    <h2>Lead the blue circle to the purple square. </h2>
     <!-- These are the custom components we'll create -->
     <!-- Values for `my-box` are percentages of the width of the canvas. -->
     <!-- Each bar will take up an equal space of the canvas. -->
@@ -116,22 +120,31 @@
         :color="stickqaz.color"
       >
       </my-stickqaz>
+      <my-stickgondor
+        v-for="stickgondor in stickgondorValues"
+        :x="stickgondor.x"
+        :y="stickgondor.y"
+        :w="stickgondor.w"
+        :h="stickgondor.h"
+        :color="stickgondor.color"
+      >
+      </my-stickgondor>
     </my-canvas>
       <p>exit</p>
   </div>
 </template>
 
 <style>
-      .range_bar {
-        margin-left: 30px;
-      }
-      canvas {
-        border: 5px solid teal;
-        margin-left: 30px;
-        margin-top: 0px;
-        height: 700px;
-        width: 1000px;
-      }
+  .range_bar {
+    margin-left: 30px;
+  }
+  canvas {
+    border: 5px solid teal;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 700px;
+    width: 700px;
+  }
 </style>
 
 <script>
@@ -148,6 +161,7 @@
   import MyStickrll    from '../components/MyStickrll.vue';
   import MySticklll    from '../components/MySticklll.vue';
   import MyStickqaz    from '../components/MyStickqaz.vue';
+  import MyStickgondor    from '../components/MyStickgondor.vue';
 
   export default {
     components: {
@@ -163,39 +177,43 @@
       MySticklla,
       MyStickrll,
       MySticklll,
-      MyStickqaz
+      MyStickqaz,
+      MyStickgondor
     },
     data: function() {
       return {
         rectangleValues: [
-          {color: 'green', x: 70, y: 0, w: 15, h: 900}
+          {color: 'green', x: 90, y: 0, w: 15, h: 900}
         ],
         stickruaValues: [
           {color: 'green', x: 210, y: 100, w: 15, h: 900}
         ],
         stickluaValues: [
-          {color: 'green', x: 210, y: 100, w: 900, h: 15}
+          {color: 'green', x: 210, y: 100, w: 500, h: 15}
         ],
         stickrulValues: [
-          {color: 'green', x: 1210, y: 0, w: 15, h: 900}
+          {color: 'green', x: 900, y: 0, w: 15, h: 900}
         ],
         sticklulValues: [
-          {color: 'green', x: 350, y: 900, w: 875, h: 15}
+          {color: 'green', x: 350, y: 900, w: 565, h: 15}
         ],
         stickrlaValues: [
-          {color: 'green', x: 1320, y: 100, w: 15, h: 900}
+          {color: 'green', x: 1020, y: 100, w: 15, h: 900}
         ],
         stickllaValues: [
-          {color: 'green', x: 410, y: 250, w: 800, h: 15}
+          {color: 'green', x: 410, y: 250, w: 500, h: 15}
         ],
         stickrllValues: [
-          {color: 'green', x: 210, y: 400, w: 800, h: 15}
+          {color: 'green', x: 210, y: 400, w: 500, h: 15}
         ],
         sticklllValues: [
-          {color: 'green', x: 410, y: 550, w: 800, h: 15}
+          {color: 'green', x: 410, y: 550, w: 500, h: 15}
         ],
         stickqazValues: [
-          {color: 'green', x: 210, y: 725, w: 800, h: 15}
+          {color: 'green', x: 210, y: 725, w: 500, h: 15}
+        ],
+        stickgondorValues: [
+          {color: 'purple', x: 1070, y: 940, w: 50, h: 50}
         ],
         circleValues: [
           {color: 'navy', x: 20, y: 20, r: 20}

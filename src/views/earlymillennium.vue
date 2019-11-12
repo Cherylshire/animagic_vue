@@ -2,7 +2,11 @@
   <section class="earlymillennium">
     <div class="container">
       <div class="headline">
-        <h1>Early Milleniums</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Early Millennium</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>        
         <div>
           <h2>
             
@@ -50,20 +54,10 @@
 </template>
 
 <style>
-/*  h1 {
-    font-style: bold;
-    font-kerning: 2px;
-    text-align: left;
-    color: #abbb55;
-    }
 
-  h2 {
-    font-style: bold;
-    text-align: left;
-    }
   img {
     max-width: 500px
-  }*/
+  }
 </style>
 
 <script>

@@ -2,8 +2,11 @@
   <section class="animated pt-9 pb-6 py-md-7">
     <div class="container"> <!--contain everthing in this page -->
       <div class="headline"> <!-- the div class of game title and instructions. -->
-        <br>
-        <h1>The Animated Sequence</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">The Animated Sequences</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <h2>Here are the 10 sequence images in the positions you put in.
         Watch them animate as the sequence goes on.</h2>
       </div>  <!-- the end div class of game title and instructions. -->
@@ -24,10 +27,13 @@
 </template>
 
 <style>
-/*.current-label {
-  color: navy;
+.current-label {
+  color: blue;
   font-size: 20px;
-}*/
+}
+.images {
+  width: 600px;
+}
 </style>
 
 <script>

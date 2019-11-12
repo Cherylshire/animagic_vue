@@ -2,7 +2,11 @@
   <section class="principlesofanimation">
     <div class="container">
       <div class="headline">
-        <h1>Introduction of Animation</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">An Overlook of Animation</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <div>
           <h2>
             <div>Animation comes from the Latin words “anima,” which means “life,” and “animare” which means “to breathe life into”    Animation consists of still images (called “frames”) with slight differences between them. When viewed together in a sequence, they give the illusion of motion – like a flipbook.</div>

@@ -269,7 +269,7 @@
                   <div class="media">
                     <div class="media-body">
                       <h5 class="line-hight-16 mb-1">
-                        <div><img src="https://image.flaticon.com/icons/svg/174/174855.svg"></div>
+                        <div><img class="linkedin_image" src="https://icon-library.net/images/linkedin-icon-no-background/linkedin-icon-no-background-8.jpg"></div>
                         <a class="font-base font-size-14" href="">Check out Cheryl's website: www.cheryljune.net</a>
                       </h5>
                       <time class="text-white">Nov 14 - 2019</time>
@@ -343,5 +343,18 @@
 </template>
 
 <style>
+
+  body {
+    background-image: url("/image/memphis-colorful.png");
+  }
+
+  .main-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .linkedin_image {
+    width: 20px;
+    height: 20px;
+  }
 
 </style>

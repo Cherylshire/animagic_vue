@@ -10,6 +10,7 @@ import maze from '../views/Canvas.vue'
 import animation from '../views/animation.vue'
 import whonine from '../views/whonine.vue'
 import introducing from '../views/introducing.vue'
+import nineoldmen from '../views/nineoldmen.vue'
 import principlesofanimation from '../views/principlesofanimation.vue'
 import whatprinciple from '../views/whatprinciple.vue'
 import firstsixprinciples from '../views/firstsixprinciples.vue'
@@ -35,6 +36,7 @@ const routes = [
   { path: "/animation", name: "animation", component: animation},
   { path: "/whonine", name: "whonine", component: whonine },
   { path: "/introducing", name: "introducing", component: introducing },
+  { path: "/nineoldmen", name: "nineoldmen", component: nineoldmen },
   { path: "/principlesofanimation", name: "principlesofanimation", component: principlesofanimation },
   { path: "/whatprinciple", name: "whatprinciple", component: whatprinciple },
   { path: "/firstsixprinciples", name: "firstsixprinciples", component: firstsixprinciples},

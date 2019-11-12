@@ -2,7 +2,11 @@
   <div class="signup">
     <div class="container">
       <form v-on:submit.prevent="submit()">
-        <h1>Signup</h1>
+        <div class="section-title justify-content-center MB-5 wow fadeInUp">
+          <span class="shape shape-left bg-info"></span>
+          <h2 class="text-danger">Sign Up Here</h2>
+          <span class="shape shape-right bg-info"></span>
+        </div>
         <ul>
           <li class="text-danger" v-for="error in errors">{{ error }}</li>
         </ul>
