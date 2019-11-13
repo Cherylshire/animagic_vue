@@ -11,6 +11,10 @@
         Your jobs is to re-order them into their rightful positions,
         so they will actually look like sequnce images. </h2>
       </div>  <!-- the end div class of game title and instructions. -->
+
+      <ul>
+        <li v-for="error in errors">{{ error }}</li>
+      </ul>
       <form v-on:submit.prevent="submit()"> <!-- rearranging number will be typed in here. With the go button. -->
         <div>
           <div class="rearrange-box" v-for="placement_hash in placements"> <!-- this is like a each loop. go through images id 1-9. --> 
@@ -28,7 +32,7 @@
 
       <div>
         <div class="row"> <!-- Go beck to backend and retrive the images. -->
-          <div class="col-md-4" v-for="imageOrder in imageOrders">
+          <div class="col-md-6" v-for="imageOrder in imageOrders">
             {{ imageOrder.image.label }}
             <img class="images" v-bind:src="imageOrder.image.url" >
           </div>
@@ -53,13 +57,13 @@
     }
 
   .row {
-    max-width: 1000px;
-    margin: auto 10px;
+    max-width: 1200px;
+    margin: auto 5px;
     font-size: 20px;
       }
 
   .images {
-    max-width: 280px;
+    max-width: 400px;
     position: relative;
   }
 
@@ -94,7 +98,8 @@ export default {
         {label: "I", image_id: 9, placement: ""},
         {label: "J", image_id: 10, placement: ""}
       ],
-      imageOrders: []
+      imageOrders: [],
+      errors: []
     };
   },
   created: function() {
@@ -109,8 +114,11 @@ export default {
       axios
         .post("/api/image_orders", {placements: this.placements})
         .then(response => {
-          console.log(response.data)
           this.imageOrders = response.data;
+          this.errors = [];
+        })
+        .catch(error => {
+          this.errors = error.response.data.errors;
         });
     }
   }

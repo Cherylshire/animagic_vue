@@ -20,7 +20,7 @@
           </div>
         </div>
       </div>
-      <button v-on:click="stopAnimation()">Stop</button>
+      <button class="bg-info"v-on:click="stopAnimation()">Stop</button>
 
     </div>
   </section>
@@ -32,6 +32,9 @@
   font-size: 20px;
 }
 .images {
+  width: 600px;
+}
+img {
   width: 600px;
 }
 </style>

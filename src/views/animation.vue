@@ -7,9 +7,10 @@
           <h2 class="text-danger">An Overlook of Animation</h2>
           <span class="shape shape-right bg-info"></span>
         </div>
-        <div>
+        <div>          
           <h2>
             <div>Animation comes from the Latin words “anima,” which means “life,” and “animare” which means “to breathe life into”    Animation consists of still images (called “frames”) with slight differences between them. When viewed together in a sequence, they give the illusion of motion – like a flipbook.</div>
+          </h2>
 
             <div>Movies and cartoon shows are what people tend to think of first, as they’re the most mainstream. Animation also encompasses:
             <ul> 
@@ -20,7 +21,9 @@
               <li>Commercials/Infomercials</li>
               <li>Websites/Splash Pages</li>
             </ul> 
+            <h2>
             <div>This is a 2D animation/animation principles course. This program utilizes Adobe Flash/Animate. During this course, our instructor will guide you systematically through the following topics:</div>
+            </h2>
             <ul>
               <li>2D Traditional</li>
               <li>2D Tra-Digital</li>
@@ -60,7 +63,6 @@
               <li>Importing Sounds and Animating to them</li>
             </ul>
             </div>
-           </h2>
         </div>
       </div>
     </div>
@@ -68,37 +70,6 @@
 </template>
 
 <style>
-  /*h1 {
-    font-style: bold;
-    font-kerning: 2px;
-    text-align: center;
-    color: #abbb55;
-    }
-
-  h2 {
-    font-style: bold;
-    text-align: center;
-    }
-
-  .row {
-    max-width: 800px;
-    margin: auto 5px;
-      }
-
-  .images {
-    max-width: 250px;
-    position: relative;
-  }
-
-  .rearrange-box {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: center;
-    color: #00bb55;
-    padding: 2px 2px;
-    font-style: bold;
-    }
-*/
 
 </style>
 
