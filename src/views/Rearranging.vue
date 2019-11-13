@@ -9,7 +9,7 @@
         </div>
         <h2>Here are 10 sequence images in random positions.
         Your jobs is to re-order them into their rightful positions,
-        so they will actually look like sequnce images. </h2>
+        so they will actually look like sequence images. </h2>
       </div>  <!-- the end div class of game title and instructions. -->
 
       <ul>

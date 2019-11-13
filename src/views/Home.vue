@@ -10,8 +10,8 @@
         </div>
         <p class="mb-5 font-size-20">Animagic is an unique app,
         it will show you some of the most basic animation, 
-        how they work and what it takes to do it, 
-        you can also play a game within the app to interact and try it yourself.</p>
+        how they work and what it takes to do it. 
+        You can also play a game within the app to interact and try it yourself.</p>
       </div>
 
       <div class="row">

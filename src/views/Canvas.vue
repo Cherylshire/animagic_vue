@@ -136,11 +136,11 @@
 
 <style>
   .range_bar {
-    margin-left: 30px;
+    margin-left: 500px;
   }
   canvas {
     border: 5px solid teal;
-    margin-left: 0px;
+    margin-left: 200px;
     margin-top: 0px;
     height: 700px;
     width: 700px;

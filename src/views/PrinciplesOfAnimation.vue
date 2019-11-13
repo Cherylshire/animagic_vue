@@ -16,7 +16,7 @@
                     <div class="card">
                       <div class="card-header bg-warning" id="headingOne">
                         <h5 class="icon-bg" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          <span>"Animaton" word</span>
+                          <span>"Animation" word</span>
                         </h5>
                       </div>
 
@@ -62,7 +62,7 @@
                     <div class="card">
                       <div class="card-header bg-danger" id="headingThree">
                         <h5 class="icon-bg collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          <span>Animation and it's many different ways</span>
+                          <span>Animation and its many different ways</span>
                         </h5>
                       </div>
 
@@ -114,7 +114,7 @@
                     <div class="card">
                       <div class="card-header bg-info" id="headingFour">
                         <h5 class="icon-bg collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          <span>Most Iconic cartoon characters</span>
+                          <span>Most Iconic Cartoon Characters</span>
                         </h5>
                       </div>
 
@@ -168,7 +168,7 @@
                       <div class="card-header bg-purple" id="headingFive">
                         <h5 class="icon-bg collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
                           aria-controls="collapseFive">
-                          <span>Sttudio Ghibli</span>
+                          <span>Studio Ghibli</span>
                         </h5>
                       </div>
                       <div id="collapseFive" class="collapse shadow-sm rounded-sm" aria-labelledby="headingFive" data-parent="#accordionOne"style="">
