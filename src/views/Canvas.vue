@@ -11,7 +11,7 @@
     <!-- Each bar will take up an equal space of the canvas. -->
     <div class="range_bar">
       <div>left and right </div>
-      <div><input type="range" name="points" min="0" max="2000" v-model="circleValues[0].x"> </div>
+      <div><input type="range" name="points" min="20" max="2000" v-model="circleValues[0].x"> </div>
       <div>up and down</div>
       <div><input type="range" name="points" min="20"  max="970"  v-model="circleValues[0].y"></div>
     </div>
